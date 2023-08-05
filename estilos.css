@@ -1,0 +1,132 @@
+body {
+    background-image: url(Fondos/fondoliso.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index:99;
+}
+/*particulas*/
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+
+}
+/*particulas*/
+.header{
+   text-align: center; 
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding-top: 13%;
+}
+.h1 {
+    font-size: 500%;
+    color: rgb(36, 186, 224);
+}
+.h2:hover{
+    color:rgb(36, 185, 185);
+}
+.h2 {
+    font-size: 350%;
+    color: rgb(11, 60, 63);
+}
+.botones {
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+.a1 a:hover{
+    color: rgb(255, 255, 255);
+}
+.a2 a:hover{
+    color: rgb(255, 255, 255);
+}
+a{
+    color: rgb(29, 65, 71);
+    text-decoration: none;
+    background-color: rgb(16, 180, 209);
+    padding: 13px;
+    margin: 10px;
+    border-radius: 45px;
+}
+#sobremi{
+    color: rgb(60, 213, 240);
+    padding-top: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120px;
+    text-align: center;
+}
+.articulo1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(102, 129, 202);
+}
+.negrita{
+    font-size: 60px;
+    color: rgb(122, 200, 219);
+}
+#habilidades{
+    color: rgb(60, 213, 240);
+    padding-top: 50%;
+    text-align: center;
+    font-size: 120px;
+}
+.titulos{
+    font-size: 35px;
+    color: white;
+}
+.imagen0{
+    width: 40%;
+    transition: 0.3s;
+}
+.imagen0:hover{
+    transform: scale(1.2)
+}
+.imagen1{
+    width: 35%;
+    transition: 0.3s;
+}
+.imagen1:hover{
+    transform: scale(1.2);
+}
+.imagen2{
+    width: 50%;
+    transition: 0.3s;
+}
+.imagen2:hover{
+    transform: scale(1.2);
+}
+.imagen3{
+    width: 35%;
+    transition: 0.3s;
+}
+.imagen3:hover{
+    transform: scale(1.2);
+}
+.Imagenes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: 100vh;
+}
+.footer{
+    color:rgb(91, 186, 230);
+    padding-top: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer img{
+width: 2%;
+height: 5%;
+}
+.footer a{
+    background-color: transparent;
+}
+.footer img:hover{
+    transform:scale(1.2)
+}
